@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazone Home</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- amazone logo-->
+      <div id="nevbar">
+        <div class="nev-logo border">
+          <div class="logo"></div>
+        </div>
+
+        <!-- nav location-->
+        <div class="nev-location border">
+          <span id="location-logo" class="text"
+            ><i class="fa-solid fa-location-dot"></i
+          ></span>
+          <span id="text1" class="text">Deliver to</span>
+
+          <span id="text2" class="text">India</span>
+        </div>
+
+        <!-- search -->
+
+        <div class="nev-search">
+          <select id="nev-select-all" name="All">
+            <option value="All Departments" style="font-size: 14px">All</option>
+            <option value="Alexa Skills">Alexa Skills</option>
+            <option value="Amazone Devices">Amazone Devices</option>
+            <option value="Amazone warehouse">Amazone warehouse</option>
+          </select>
+
+          <!-- search bar-->
+          <div class="nev-searchbar">
+            <input
+              id="searchbar"
+              type="search"
+              placeholder="search Amazone.in"
+            />
+          </div>
+
+          <!-- search button-->
+          <div class="nev-button-search">
+            <button id="button-search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- language select -->
+        <select id="nev-lang" name="language">
+          <option value="English">EN</option>
+          <option value="French">FR</option>
+        </select>
+
+        <!-- Login box-->
+        <div class="nev-account border">
+          <div class="outer">
+            <p id="sp1" class="sign-in">Hello,sign in</p>
+            <div class="inner">
+              <p id="sp2" class="sign-in">Account & lists</p>
+              <i id="carret-down" class="fa-solid fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- return-->
+        <div class="nev-return border">
+          <p><span>Returns</span></p>
+          <p class="bigger-font">& Orders</p>
+        </div>
+
+        <!-- cart-->
+        <div class="nev-cart border">
+          <div class="cart">
+            <i id="cart-logo" class="fa-solid fa-cart-shopping"></i>
+            <span class="basket">Basket</span>
+          </div>
+        </div>
+      </div>
+      <!-- menue -->
+      <div class="menue">
+        <div class="menu-box1 border">
+          <a class="menue-icon" href="#"
+            ><i class="fa-solid fa-bars"></i><span id="all">All</span></a
+          >
+        </div>
+
+        <!-- div anchor tags -->
+        <div class="menue-anchors">
+          <a class="elements border" href="#">Best Sellers</a>
+          <a class="elements border" href="#">Amazon Basics</a>
+          <a class="elements border" href="#">New Releases</a>
+          <a class="elements border" href="#">Our Deals</a>
+          <a class="elements border" href="#">Gift Ideas</a>
+          <a class="elements border" href="#">Prime</a>
+          <a class="elements border" href="#">Sell on Amazon</a>
+          <a class="elements border" href="#">Books</a>
+          <a class="elements border" href="#">Shopper Toolkit</a>
+          <a class="elements border" href="#">Gift Cards</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="hero-section"></div>
+      <div class="box-container">
+        <div class="box">
+          <h2>Home and Kitchen</h2>
+          <div class="box-image-container">
+            <div class="box-image">
+              <div
+                class="image"
+                style="background-image: url('/resources/kichen2.jpg')"
+              ></div>
+              <p>Kitchen</p>
+            </div>
+            <div class="box-image">
+              <div
+                class="image"
+                style="background-image: url('/resources/kichen.jpg')"
+              ></div>
+              <p>Small appliances</p>
+            </div>
+            <div class="box-image">
+              <div
+                class="image"
+                style="background-image: url('/resources/kichen3.jpg')"
+              ></div>
+              <p>furniture</p>
+            </div>
+            <div class="box-image">
+              <div
+                class="image"
+                style="background-image: url('/resources/kichen4.jpg')"
+              ></div>
+              <p>Storage</p>
+            </div>
+          </div>
+
+          <p id="bottom">Discover</p>
+        </div>
+        <div class="box">
+          <h2>High-Tech</h2>
+          <div class="box-image-container">
+            <div class="box-image">
+              <div
+                class="image"
+                style="background-image: url('/resources/tech1.jpg')"
+              ></div>
+              <p>Computer</p>
+            </div>
+            <div class="box-image">
+              <div
+                class="image"
+                style="background-image: url('/resources/tech2.jpg')"
+              ></div>
+              <p>Phones</p>
+            </div>
+            <div class="box-image">
+              <div
+                class="image"
+                style="background-image: url('/resources/tech3.jpg')"
+              ></div>
+              <p>Headphones</p>
+            </div>
+            <div class="box-image">
+              <div
+                class="image"
+                style="background-image: url('/resources/tech4.jpg')"
+              ></div>
+              <p>Virual reality</p>
+            </div>
+          </div>
+
+          <p id="bottom">Discover</p>
+        </div>
+        <div class="box">
+          <h2>Sports and leisure</h2>
+          <div class="box-image-container">
+            <div class="box-image">
+              <div
+                class="image"
+                style="background-image: url('/resources/sports1.jpg')"
+              ></div>
+              <p>Cycling</p>
+            </div>
+            <div class="box-image">
+              <div
+                class="image"
+                style="background-image: url('/resources/sports2.jpg')"
+              ></div>
+              <p>Hiking</p>
+            </div>
+            <div class="box-image">
+              <div
+                class="image"
+                style="background-image: url('/resources/sports3.jpg')"
+              ></div>
+              <p>Football</p>
+            </div>
+            <div class="box-image">
+              <div
+                class="image"
+                style="background-image: url('/resources/sports4.jpg')"
+              ></div>
+              <p>Fan shop</p>
+            </div>
+          </div>
+
+          <p id="bottom">See more</p>
+        </div>
+        <div class="box">
+          <h2>Offices</h2>
+          <div class="box-image-container">
+            <div class="box-image">
+              <div
+                class="image"
+                style="background-image: url('/resources/office1.jpg')"
+              ></div>
+              <p>Desktop computers</p>
+            </div>
+            <div class="box-image">
+              <div
+                class="image"
+                style="background-image: url('/resources/office2.jpg')"
+              ></div>
+              <p>Laptop computers</p>
+            </div>
+            <div class="box-image">
+              <div
+                class="image"
+                style="background-image: url('/resources/office3.jpg')"
+              ></div>
+              <p>Tabels</p>
+            </div>
+            <div class="box-image">
+              <div
+                class="image"
+                style="background-image: url('/resources/office4.jpg')"
+              ></div>
+              <p>Office supplies</p>
+            </div>
+          </div>
+
+          <p id="bottom">Explore</p>
+        </div>
+        <div class="box">
+          <h2>Lawn & Garden</h2>
+          <div class="box-image-container">
+            <div class="box-image">
+              <div
+                class="image"
+                style="background-image: url('/resources/lawn1.jpg')"
+              ></div>
+              <p>Furniture</p>
+            </div>
+            <div class="box-image">
+              <div
+                class="image"
+                style="background-image: url('/resources/lawn2.jpg')"
+              ></div>
+              <p>Lawnmovers</p>
+            </div>
+            <div class="box-image">
+              <div
+                class="image"
+                style="background-image: url('/resources/lawn3.jpg')"
+              ></div>
+              <p>Barbecue</p>
+            </div>
+            <div class="box-image">
+              <div
+                class="image"
+                style="background-image: url('/resources/lawn4.jpg')"
+              ></div>
+              <p>Lighting</p>
+            </div>
+          </div>
+
+          <p id="bottom">Discover</p>
+        </div>
+        <div class="box">
+          <h2>Beauty and wellness</h2>
+          <div class="box-image-container">
+            <div class="box-image">
+              <div
+                class="image"
+                style="background-image: url('/resources/beauty1.jpg')"
+              ></div>
+              <p>Skin care</p>
+            </div>
+            <div class="box-image">
+              <div
+                class="image"
+                style="background-image: url('/resources/beauty2.jpg')"
+              ></div>
+              <p>Makeup</p>
+            </div>
+            <div class="box-image">
+              <div
+                class="image"
+                style="background-image: url('/resources/beauty3.jpg')"
+              ></div>
+              <p>Fragrances</p>
+            </div>
+            <div class="box-image">
+              <div
+                class="image"
+                style="background-image: url('/resources/beauty4.jpg')"
+              ></div>
+              <p>Hairstyling</p>
+            </div>
+          </div>
+
+          <p id="bottom">Discover</p>
+        </div>
+        <div class="box">
+          <h2>DYI</h2>
+          <div class="box-image-container">
+            <div class="box-image">
+              <div
+                class="image"
+                style="background-image: url('/resources/DIY1.jpg')"
+              ></div>
+              <p>climate control</p>
+            </div>
+            <div class="box-image">
+              <div
+                class="image"
+                style="background-image: url('/resources/DIY2.jpg')"
+              ></div>
+              <p>Paint</p>
+            </div>
+            <div class="box-image">
+              <div
+                class="image"
+                style="background-image: url('/resources/DIY3.jpg')"
+              ></div>
+              <p>Plumbing</p>
+            </div>
+            <div class="box-image">
+              <div
+                class="image"
+                style="background-image: url('/resources/DIY4.jpg')"
+              ></div>
+              <p>Security</p>
+            </div>
+          </div>
+
+          <p id="bottom">Explore</p>
+        </div>
+        <div class="box">
+          <h2>Video Games</h2>
+          <div class="box-image-container">
+            <div class="box-image">
+              <div
+                class="image"
+                style="background-image: url('/resources/game1.jpg')"
+              ></div>
+              <p>Monitors</p>
+            </div>
+            <div class="box-image">
+              <div
+                class="image"
+                style="background-image: url('/resources/game2.jpg')"
+              ></div>
+              <p>Desks</p>
+            </div>
+            <div class="box-image">
+              <div
+                class="image"
+                style="background-image: url('/resources/game3.jpg')"
+              ></div>
+              <p>Gaming accessories</p>
+            </div>
+            <div class="box-image">
+              <div
+                class="image"
+                style="background-image: url('/resources/game4.jpg')"
+              ></div>
+              <p>Merchandise</p>
+            </div>
+          </div>
+
+          <p id="bottom">Discover</p>
+        </div>
+      </div>
+    </main>
+
+    <div class="signin-container">
+      <div class="signin-inner-container">
+        <p class="first">See personalised recommendations</p>
+        <button class="btn-signin">Sign in</button>
+        <p class="second">New customer? <a href="#">Start here.</a></p>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-back">Back to top</div>
+      <div class="footer-options">
+        <div class="options-container-inner">
+          <div class="options-box box1">
+            <h3>Get to Know Us</h3>
+            <p>About Amazon</p>
+            <p>Careers</p>
+            <p>Sustainability</p>
+            <p>Amazon Science</p>
+          </div>
+          <div class="options-box box2">
+            <h3>Make Money with Us</h3>
+            <p>Sell on Amazon</p>
+            <p>Sell on Amazon Business</p>
+            <p>Sell on Amazon Handmade</p>
+            <p>Protect and build your brand</p>
+            <p>Associates Programme</p>
+            <p>Fulfilment by Amazon</p>
+            <p>Supply to Amazon</p>
+            <p>Advertise Your Products</p>
+            <p>Independently Publish with Us</p>
+            <p>Amazon Pay</p>
+            <p>See More Make Money with Us</p>
+          </div>
+          <div class="options-box box3">
+            <h3>Amazon Payment Methods</h3>
+            <p>Amazon Business Amex Card</p>
+            <p>Payment Methods Help</p>
+            <p>Amazon Currency Converter</p>
+            <p>Gift Cards</p>
+            <p>Top Up Your Account</p>
+            <p>Top Up Your Account in Store</p>
+          </div>
+          <div class="options-box box4">
+            <h3>Let Us Help You</h3>
+            <p>Track Packages or View Orders</p>
+            <p>Delivery Rates & Policies</p>
+            <p>Returns & Replacements</p>
+            <p>Recalls and Product Safety Alerts</p>
+            <p>Recycling</p>
+            <p>Amazon Mobile App</p>
+            <p>Customer Service</p>
+            <p>Accessibility</p>
+            <p>Report illegal content</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-logo">
+        <div class="logo-outer-containor">
+          <div class="logo2"></div>
+          <button class="button1">
+            <span class="icon-globe"><i class="fa-solid fa-globe"></i></span>
+            <span class="text-language">English</span>
+          </button>
+          <button class="button2">France</button>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="amazone-others">
+          <div class="platform">
+            <p><a href="#"><b>Amazon Music</b>
+              Stream millions
+              of songs</a></p>
+          </div>
+          <div class="platform">
+            <p><a href="#"><b>Amazon Web Services</b>
+            Scalable Cloud
+            Computing Services</a></p>
+          </div>
+          <div class="platform">
+            <p><a href="#"><b>AbeBooks</b>
+              Books, art
+              & collectables</a></p>
+          </div>
+          <div class="platform">
+            <p><a href="#"><b>Audible</b>
+              Download Audiobooks
+              </a></p>
+          </div>
+          <div class="platform">
+            <p><a href="#"><b>Kindle Direct publishing</b>
+              Indie Digital & Print Publishing Made Easy</a></p>
+          </div>
+          <div class="platform">
+            <p><a href="#"><b>Amazone Warehouse</b>
+              Deep
+            Discounts
+         Open-Box Products</a></p>
+          </div>
+          <div class="platform">
+            <p><a href="#"><b>Shopbop</b>
+              Designer Fashion Brands</a></p>
+          </div>
+          <div class="platform">
+            <p><a href="#"><b>Amazon Advertising</b>
+              Find,attract and engage customers</a></p>
+          </div>
+         
+        </div>
+        <div class="copyright">
+          <div class="line1">
+            
+<a href="#">Conditions of Use & Sale</a>     <a href="#">Privacy Notice</a>    <a href="#">Cookies Notice</a>    <a href="#">Interest-Based Ads Notice</a></pre>
+          </div>
+          <div class="line2">
+            &copy; 1996-2024, Amazon.com, Inc. or its affiliate
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
