@@ -26,7 +26,7 @@ a {
 }
 
 .logo {
-  background-image: url("/resources/logo-ama.jpg");
+  background-image: url("/code/resources/logo-ama.jpg");
   background-size: cover;
   height: 50px;
   width: 100%;
@@ -193,21 +193,21 @@ span {
 .hero-section {
   width: 100vw;
   height: 300px;
-  /* background-image: url(/resources/71-x0BI3IcL._SX3000_.jpg);
+  /* background-image: url(//code/resources/71-x0BI3IcL._SX3000_.jpg);
   background-size: cover; */
 }
 /* .hero-section:hover {
-  background-image: url(/resources/background2.jpg);
+  background-image: url(//code/resources/background2.jpg);
   background-size: cover;
 } */
 @keyframes backgroundImageMove {
   from {
-    background-image: url(/resources/71-x0BI3IcL._SX3000_.jpg);
+    background-image: url(/code/resources/71-x0BI3IcL._SX3000_.jpg);
     background-size: cover;
   }
 
   to {
-    background-image: url(/resources/background3.jpg);
+    background-image: url(/code/resources/background3.jpg);
     background-size: cover;
   }
 }
@@ -372,7 +372,7 @@ footer {
 .logo2 {
   height: 70px;
   width: 120px;
-  background-image: url("/resources/ama-blue-logo.png");
+  background-image: url("/code/resources/ama-blue-logo.png");
   background-size: cover;
   margin-right: 100px;
 }
